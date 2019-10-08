@@ -1,4 +1,4 @@
-package br.pucminas.gateway;
+package br.pucminas.gateway.filters;
 
 import javax.servlet.http.HttpServletRequest;
 
