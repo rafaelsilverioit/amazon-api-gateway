@@ -2,7 +2,11 @@ ribbon:
   eureka:
     enabled: false
 zuul:
+  prefix: /api
   routes:
+    authy:
+      url: http://127.0.0.1:9001/v1/public
+      stripPrefix: true
     library:
-      url: http://127.0.0.1:9001
+      url: http://127.0.0.1:9002/v1/public
       stripPrefix: true

@@ -4,8 +4,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import br.pucminas.gateway.filters.LogFilter;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @EnableZuulProxy
+@EnableSwagger2
+@Configuration
 @SpringBootApplication
 public class GatewayApplication {
 
