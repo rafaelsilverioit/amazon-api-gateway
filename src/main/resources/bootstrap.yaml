@@ -1,0 +1,8 @@
+ribbon:
+  eureka:
+    enabled: false
+zuul:
+  routes:
+    library:
+      url: http://127.0.0.1:9001
+      stripPrefix: true
