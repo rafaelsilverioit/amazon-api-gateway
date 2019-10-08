@@ -11,7 +11,7 @@ Abaixo esta o desenho do sistema, baseado na documentação gerada pelo Swagger2
 
 Para acessar a documentação é necessário ter todos os serviços rodando e em seguida basta acessar: http://[IP]:8080/swagger-ui.html
 
-## 11 regras utilizadas para desenhar a API.
+## 11 regras utilizadas para desenhar as APIs.
 
 ### APIs organizadas ao longo de recursos
 As APIs foram organizadas com base em recursos. Por exemplo: books, basket, comments e users.
